@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="QHpZCj9l62GasQ6DSCjH" name="Page-1">
+        <mxGraphModel dx="386" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;lt;CategoryFiilter /&amp;gt;&lt;br&gt;&lt;br&gt;returns (&lt;br&gt;&amp;nbsp; &amp;lt;div className=&quot;categories&quot;&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;h5&amp;gt;Category filters&amp;lt;/h5&amp;gt;&lt;br&gt;&amp;nbsp; &amp;lt;button&amp;gt;{for each category}&amp;lt;/button&amp;gt;&lt;br&gt;&amp;lt;/div&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="37.5" y="200" width="182.5" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;lt;NewTaskForm /&amp;gt;&lt;br&gt;&lt;br&gt;returns(&lt;br&gt;&amp;nbsp; &amp;lt;form className=&quot;new-task-form&quot;&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;label&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Details&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;input type=&quot;text&quot; name=&quot;text&quot; /&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/label&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;lable&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Category&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;select name=&quot;category&quot;&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;option&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {render for each category}&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;option&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;/select&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/lable&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;input type=&quot;submit&quot; value=&quot;Add task&quot; /&amp;gt;&lt;br&gt;&amp;nbsp; &amp;lt;/form&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="200" width="200" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;lt;TaskList /&amp;gt;&lt;br&gt;returns(&lt;br&gt;&amp;nbsp; &amp;lt;div className=&quot;tasks&quot;&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; {display a list of tasks using Task component}&lt;br&gt;&amp;nbsp; &amp;lt;/div&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="200" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;lt;App /&amp;gt;&lt;br&gt;{ CATEGORIES, TASKS }&lt;br&gt;CATEGORIES = [&quot;All&quot;, &quot;Code&quot;, &quot;Food&quot;, &quot;Money&quot;, &quot;Misk&quot;]&lt;br&gt;TASKS=[{ text: &quot;task&quot;, category: &quot;category&quot;}]&lt;br&gt;holds state for:&lt;br&gt;CATEGORIES&lt;br&gt;TASKS&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="60" width="410" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;lt;Task /&amp;gt;&lt;br&gt;returns(&lt;br&gt;&amp;nbsp; &amp;lt;div className=&quot;task&quot;&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;lt;div className=&quot;label&quot;&amp;gt;CATEGORY HERE&amp;lt;/div&amp;gt;&lt;br&gt;&amp;lt;div className=&quot;text&quot;&amp;gt;TEXT HERE&amp;lt;/div&amp;gt;&lt;br&gt;&amp;lt;button className=&quot;delete&quot;&amp;gt;x&amp;lt;/button&amp;gt;&lt;br&gt;&amp;lt;/div&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="320" width="250" height="110" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
